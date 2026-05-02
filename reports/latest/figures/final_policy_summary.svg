@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" role="img" aria-label="Final policy summary">
+<style>.title{font:700 16px system-ui}.text,.tick{font:12px system-ui;fill:#475467}.policy{font:600 12px system-ui;fill:#1d2939}</style>
+<rect width="920" height="380" fill="#ffffff"/>
+<text x="24" y="24" class="title">Final policy summary after 40 samples</text>
+<text x="190" y="24" class="text">RMSE</text>
+<text x="545" y="24" class="text">Hotspot recall</text>
+<text x="24" y="56" class="policy">greedy_oracle</text>
+<rect x="190" y="42" width="208.0" height="18" fill="#111827" opacity="0.82"/>
+<text x="404.0" y="56" class="tick">0.894</text>
+<rect x="545" y="42" width="250.0" height="18" fill="#111827" opacity="0.82"/>
+<text x="801.0" y="56" class="tick">1.000</text>
+<text x="24" y="89" class="policy">grid</text>
+<rect x="190" y="75" width="210.2" height="18" fill="#30638e" opacity="0.82"/>
+<text x="406.2" y="89" class="tick">0.903</text>
+<rect x="545" y="75" width="75.0" height="18" fill="#30638e" opacity="0.82"/>
+<text x="626.0" y="89" class="tick">0.300</text>
+<text x="24" y="122" class="policy">linucb_reconstruction</text>
+<rect x="190" y="108" width="236.8" height="18" fill="#d1495b" opacity="0.82"/>
+<text x="432.8" y="122" class="tick">1.017</text>
+<rect x="545" y="108" width="185.4" height="18" fill="#d1495b" opacity="0.82"/>
+<text x="736.4" y="122" class="tick">0.742</text>
+<text x="24" y="155" class="policy">ucb</text>
+<rect x="190" y="141" width="237.2" height="18" fill="#edae49" opacity="0.82"/>
+<text x="433.2" y="155" class="tick">1.019</text>
+<rect x="545" y="141" width="95.8" height="18" fill="#edae49" opacity="0.82"/>
+<text x="646.8" y="155" class="tick">0.383</text>
+<text x="24" y="188" class="policy">random</text>
+<rect x="190" y="174" width="237.3" height="18" fill="#7f4f24" opacity="0.82"/>
+<text x="433.3" y="188" class="tick">1.019</text>
+<rect x="545" y="174" width="100.0" height="18" fill="#7f4f24" opacity="0.82"/>
+<text x="651.0" y="188" class="tick">0.400</text>
+<text x="24" y="221" class="policy">historical_frequency</text>
+<rect x="190" y="207" width="239.3" height="18" fill="#2a9d8f" opacity="0.82"/>
+<text x="435.3" y="221" class="tick">1.028</text>
+<rect x="545" y="207" width="202.1" height="18" fill="#2a9d8f" opacity="0.82"/>
+<text x="753.1" y="221" class="tick">0.808</text>
+<text x="24" y="254" class="policy">linucb_context</text>
+<rect x="190" y="240" width="247.2" height="18" fill="#6a4c93" opacity="0.82"/>
+<text x="443.2" y="254" class="tick">1.062</text>
+<rect x="545" y="240" width="183.3" height="18" fill="#6a4c93" opacity="0.82"/>
+<text x="734.3" y="254" class="tick">0.733</text>
+<text x="24" y="287" class="policy">thompson</text>
+<rect x="190" y="273" width="250.0" height="18" fill="#4d908e" opacity="0.82"/>
+<text x="446.0" y="287" class="tick">1.074</text>
+<rect x="545" y="273" width="72.9" height="18" fill="#4d908e" opacity="0.82"/>
+<text x="623.9" y="287" class="tick">0.292</text>
+</svg>
